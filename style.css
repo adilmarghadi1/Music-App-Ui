@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+aside {
+    display: flex;
+	flex-direction: column;
+    background-color: rgb(231, 209, 209);
+	justify-content: space-around;
+    float: left;
+    height: 100vh;
+    z-index: -1;
+}
+ 
+ 
+aside i.fa {
+    margin-top: 4px;
+    display: flex;
+    margin-left: 12px;
+    margin-right: 10px;
+    margin-bottom: 60px;
+	font-size: 1.2em;
+}  
+
+.first {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #4e4e4e;
+}
+
+.first img {
+    margin: 30px;
+}
+
+.first h1 {
+    font-size: 1.4em;
+    margin: 30px;
+    color: rgb(238, 234, 227);
+}
+ 
+.one .firsth {
+    margin-left:30px;
+    color: rgb(223, 211, 190);
+    font-weight: 200;
+}
+
+.one .secondh{
+    margin-left: 30px;
+    font-weight: 200;
+    color: rgb(223, 211, 190);
+}
+
+.one i {
+    margin-left: 30px;
+    font-size: 1em;
+    color:rgb(224, 214, 196);
+    margin-top: 140px;
+}
+
+ul {
+    display: flex;
+
+}
+
+li {
+    list-style: none;
+    text-align: start;
+    margin-left: 30px;
+    flex:0 0 270px;
+    margin-top: 40px;
+    padding:1px;
+    font-size: 15px;
+}
+
+li:last-child {
+    border:1px solid gray;
+    flex:0 0 150px;
+}
+
+
+.last {
+    margin-top: 26px;
+    display: flex;
+     z-index:1000 !important;
+    background-color: blueviolet;
+    height: 20vh;
+}
+.last img {
+    margin:40px;
+}
+
+.second h3{
+    margin-top: 40px;
+    color: rgb(224, 219, 210);
+}
+
+.second  h4 {
+    margin-top: 40px;
+    color: rgb(224, 219, 210);
+}
+
+.second i:first-child {
+    margin-left: 450px;
+}
+
+.second i{
+    margin-right: 40px;
+
+    margin-top: 45px;
+    color: rgb(250, 236, 236);
+    
+  
+}
